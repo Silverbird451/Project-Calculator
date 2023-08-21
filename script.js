@@ -47,7 +47,7 @@ function checkIfOperate(){
         operate()
         const lowerScreenResult = lowerScreen.textContent;
         upperScreen.textContent = `${lowerScreenResult}`
-        numOfOperators = 1;
+        numOfOperators = 0;
     }
 }
 
