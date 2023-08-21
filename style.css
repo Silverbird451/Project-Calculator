@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 175, 209);
+    margin: 0;
+}
+
+.mid {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.calculator {
+    width: 430px;
+    height: 565px;
+    background-color: #302e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.screen {
+    width: 370px;
+    height: 100px;
+    background-color: #689b68;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.upperScreen {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    padding-left: 7px;
+    padding-top: 7px;
+    height: 40px;
+}
+
+.lowerScreen {
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    padding: 7px;
+    height: 60px;
+    align-items: center;
+    justify-content: end;
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
+
+.upperBtnsContainer {
+    display: flex;
+    width: 370px;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.Up {
+    display: flex;
+    margin-right: 10px;
+    padding: 20px;
+    /*border: 2px var(--border) solid;*/
+    border-radius: 5px;
+    background-color: grey;
+    font-size: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#restartBtn {
+    background-color: #c57674;
+    color: #ffffff;
+}
+
+#deleteBtn {
+    background-color: #4490a3;
+    color: #ffffff;
+}
+
+.lowerBtnsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 360px;
+    height: 280px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btn {
+    padding: 20px;
+    /* border: 2px var(--border) solid;*/
+    border-radius: 5px;
+    background-color: #797878;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.footer {
+    margin: 0;
+}
+
+.pFoot {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
